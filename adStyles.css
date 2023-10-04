@@ -1,0 +1,87 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#demo{
+    margin-left: 12%;
+    width: 20%;
+    float: left;
+    margin-top: 2%;
+}
+.logo{
+    overflow: hidden;
+    background-color: #ddf7fa;
+    block-size: fit-content;
+    float: right;
+    border-radius: 1000px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    height: 30px;
+    width: auto;
+    object-fit: cover;
+}
+.topContainer-fluid{
+    text-align: center;
+    background-color: #ddf7fa;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: verdana;
+}
+.ofContainer-fluid{
+    margin-left: 870%;
+    width: 100%;
+    background-color: #ddf7fa;
+    border-radius: 100px;
+}
+.ofContainer-fluid a{
+    color: black;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    margin-left: 3%;
+}
+.columnContainer-fluid{
+    text-align: center;
+    margin-top: 2%;
+    margin-right: 7%;
+    width: 50%;
+    float: right;
+}
+header h3{
+    background-color: #ddf7fa;
+    border-radius: 100px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 30%;
+    width: 40%;
+}
+.carousel-item{
+    width: 80%;
+}
+.d-block{
+    margin-left: 13%;
+}
+.leftLine{
+    margin-top: 3.6%;
+    margin-left: 4%;
+    width: 20%;
+    float: left;
+    color: black;
+}
+.rightLine{
+    margin-top: -2.5%;
+    margin-right: 4%;
+    width: 20%;
+    float: right;
+    color: black;
+}
+button{
+    border-radius: 1000px;
+    height: 14%;
+    margin-top: 40%;
+}
