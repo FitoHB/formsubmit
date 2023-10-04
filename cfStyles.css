@@ -1,10 +1,10 @@
 
-.orderForm{
+.contactForm{
     width: 50%;
     float: left;
     background-color: #ddf7fa;
     margin-left: 25%;
-    margin-top: 12%;
+    margin-top: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -31,13 +31,16 @@
     width: auto;
     object-fit: cover;
 }
-.ofContainer-fluid{
+.cfContainer-fluid{
     margin-left: 75%;
     width: 7%;
     background-color: #ddf7fa;
     border-radius: 100px;
 }
-.ofContainer-fluid a{
+.cfContainer-fluid a{
     color: black;
     text-align: center;
+}
+button{
+    margin-top: 3%;
 }
