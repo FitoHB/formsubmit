@@ -1,4 +1,6 @@
-
+.honeypot{
+    display: none;
+}
 .contactForm{
     width: 50%;
     float: left;
