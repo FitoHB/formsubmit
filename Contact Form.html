@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order Form</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1">        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="cfStyles.css"> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>      
+        <script src="https://kit.fontawesome.com/91e6ac4263.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class="logo" src="Sweater Logo.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="Contact Form.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Store</a>
+                      </li>
+                    </ul>
+                    <div class="ofContainer-fluid">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html"><b>Go Back</b></a>
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>
+        </nav>
+        <div class="orderForm">
+        <form action="https://formsubmit.co/fito.habban@gmail.com" method="POST">
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+
+            <div class="mb-3 mt-3">
+              <label for="Phone Number" class="form-label">Phone Number:</label>
+              <input type="phoneNumber" class="form-control" id="phoneNumber" placeholder="Enter Phone Number" name="phoneNumber">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          </div>
+    </body>
+</html>

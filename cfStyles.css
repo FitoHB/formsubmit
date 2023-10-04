@@ -1,0 +1,43 @@
+
+.orderForm{
+    width: 50%;
+    float: left;
+    background-color: #ddf7fa;
+    margin-left: 25%;
+    margin-top: 12%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    margin-left: 3%;
+}
+.logo{
+    overflow: hidden;
+    background-color: #ddf7fa;
+    block-size: fit-content;
+    float: right;
+    border-radius: 1000px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    height: 30px;
+    width: auto;
+    object-fit: cover;
+}
+.ofContainer-fluid{
+    margin-left: 75%;
+    width: 7%;
+    background-color: #ddf7fa;
+    border-radius: 100px;
+}
+.ofContainer-fluid a{
+    color: black;
+    text-align: center;
+}
