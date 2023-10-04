@@ -1,6 +1,16 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+button{
+    border-radius: 1000px;
+    height: 14%;
+    margin-top: 40%;
+}
+footer{
+    float: left;
+    margin-top: 3%;
+    font-size: smaller;
+}
 #demo{
     margin-left: 12%;
     width: 20%;
@@ -80,8 +90,4 @@ header h3{
     float: right;
     color: black;
 }
-button{
-    border-radius: 1000px;
-    height: 14%;
-    margin-top: 40%;
-}
+
